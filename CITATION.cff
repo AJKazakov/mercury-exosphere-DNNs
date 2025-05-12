@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the appropriate version below."
+title: "Conceptual framework for the application of deep neural networks to surface composition reconstruction from Mercury’s exosphere"
+abstract: "Chronological collection of manuscripts exploring the conceptual application of machine-learning algorithms for the reconstruction of Mercury’s surface composition from simulated exospheric measurements."
+authors:
+  - family-names: Kazakov
+	given-names: Adrian
+    orcid: https://orcid.org/0000-0001-6403-0266
+date-released: 2020-07-01
+version: 0.0
+doi: 10.1088/1742-6596/1548/1/012014
+license: CC-BY-4.0
+repository-code: https://github.com/AJKazakov/mercury-exosphere-DNNs
+keywords:
+  - Mercury
+  - exosphere
+  - deep learning
+  - planetary science
