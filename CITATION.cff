@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite the appropriate version below."
-title: "Deep neural networks for surface composition reconstruction from in situ exospheric measurements at Mercury"
-abstract: "Complete study with simplified environment models, multiple processes, multiple networks, and multiple tasks introduction. First full paper of the chronological collection of manuscripts exploring the conceptual application of machine-learning algorithms for the reconstruction of Mercury’s surface composition from simulated exospheric measurements. Testing three DNN types: single MLP with hyperparameter optimization, 2xMLP in series, 2xMLP in a simple decision-split. Mineralogy (9 minerals) and elemental (11 elements) composition prediction  from exospheric elemental measurements; maps reconstruction and analysis. Simulated dataset - simplistic split and release processes (4 main processes - MIV, SP, PSD, TD), no complex exospheric dynamics."
+title: "Deep neural networks for surface composition reconstruction from in-situ exospheric measurements at Mercury"
+abstract: "Complete study with realistic environment models, multiple processes, single optimized DNN, focused on a single prediction task (elemental ratios at surface). Detailed draft paper of a second more-focused study of the chronological collection of manuscripts exploring the conceptual application of machine-learning algorithms for the reconstruction of Mercury’s surface composition from simulated exospheric measurements. Single DNN type: An optimized MLP with 4 hidden layers. Elemental composition prediction (11 elements) from exospheric elemental measurements; maps reconstruction and analysis; metrics evaluations. Simulated dataset - realistic assumptions for the release processes (4 main processes - MIV, SP, PSD, TD), exospheric dynamics included; chemistry, magnetic field influences, and testing on actual Mercury surface and exosphere are not included."
 version: 1.0
-date-released: 2020-12-01
-doi: 10.5281/zenodo.15396287
+date-released: 2024-02-21
+doi: 10.5281/zenodo.15396772
 repository-code: https://github.com/AJKazakov/mercury-exosphere-DNNs
 authors:
   - family-names: Kazakov
@@ -15,10 +15,10 @@ authors:
 	given-names: Anna
     orcid: https://orcid.org/0000-0002-0266-2556
 	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
-  - family-names: Lazzarotto
-	given-names: Francesco
-    orcid: https://orcid.org/0000-0003-4871-4072
-	affiliation: Istituto Nazionale di Astrofisica (INAF) - Osservatorio Astronomico di Padova (OAP)
+  - family-names: Mura
+	given-names: Alessandro
+    orcid: https://orcid.org/0000-0002-4552-4292
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)	
   - family-names: Ivanovski
 	given-names: Stavro
     orcid: https://orcid.org/0000-0002-8068-7695
@@ -27,45 +27,69 @@ authors:
 	given-names: Valeria
     orcid: https://orcid.org/0000-0002-9903-4053
 	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
+  - family-names: Aronica
+	given-names: Alessandro
+    orcid: https://orcid.org/0000-0003-3205-9472
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)	
+  - family-names: De Angelis
+	given-names: Elisabetta
+    orcid: https://orcid.org/0000-0003-0537-6376
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)	
+  - family-names: Di Bartolomeo
+	given-names: Pier Paolo
+    orcid: https://orcid.org/0009-0008-3056-6589
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)	
+  - family-names: Colasanti
+	given-names: Luca
+    orcid: https://orcid.org/0000-0002-1759-6344
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)	
   - family-names: Escalona-Moran
 	given-names: Miguel
     orcid: https://orcid.org/0000-0002-2318-5808
 	affiliation: Augmented Intelligence Lab
-  - family-names: Mura
-	given-names: Alessandro
-    orcid: https://orcid.org/0000-0002-4552-4292
-	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
+  - family-names: Lazzarotto
+	given-names: Francesco
+    orcid: https://orcid.org/0000-0003-4871-4072
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Osservatorio Astronomico di Padova (OAP)
   - family-names: Massetti
 	given-names: Stefano
     orcid: https://orcid.org/0000-0002-7767-1334
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
+  - family-names: Moroni
+	given-names: Martina
+    orcid: https://orcid.org/0000-0002-5651-5244
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
+  - family-names: Noschese
+	given-names: Raffaella
+    orcid: https://orcid.org/0000-0003-0502-0337
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
+  - family-names: Nuccilli
+	given-names: Fabrizio
+    orcid: https://orcid.org/0000-0003-2339-1887
 	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
   - family-names: Orsini
 	given-names: Stefano
     orcid: https://orcid.org/0000-0002-5588-1920
 	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
-  - family-names: De Angelis
-	given-names: Elisabetta
-    orcid: https://orcid.org/0000-0003-0537-6376
-	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
+  - family-names: Plainaki
+	given-names: Christina
+    orcid: https://orcid.org/0000-0003-1483-5052
+	affiliation: Agenzia Spaziale Italiana (ASI)
   - family-names: Rispoli
 	given-names: Rosanna
     orcid: https://orcid.org/0000-0001-8575-7712
-	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
-  - family-names: Vertolli
-	given-names: Nello
-    orcid: https://orcid.org/0000-0001-9201-3025
-	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
-  - family-names: Aronica
-	given-names: Alessandro
-    orcid: https://orcid.org/0000-0003-3205-9472
 	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
   - family-names: Sordini
 	given-names: Roberto
 	orcid: https://orcid.org/0000-0002-2242-6147
 	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
-  - family-names: Noschese
-	given-names: Raffaella
-    orcid: https://orcid.org/0000-0003-0502-0337
+  - family-names: Stumpo
+	given-names: Mirko
+	orcid: https://orcid.org/0000-0002-6303-5329
+	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)	
+  - family-names: Vertolli
+	given-names: Nello
+    orcid: https://orcid.org/0000-0001-9201-3025
 	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
 keywords:
   - Mercury
