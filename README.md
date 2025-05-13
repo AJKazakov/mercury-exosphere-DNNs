@@ -10,10 +10,11 @@ series.
 | v1.0 | 2020 | 10.5281/zenodo.15396287 | Testing three DNN types: single MLP with hyperparameter optimization, 2xMLP in series, 2xMLP in a simple decision-split. | Mineralogy (9 minerals) and elemental (11 elements) composition prediction from exospheric elemental measurements; maps reconstruction and analysis. | Simulated dataset - simplistic split and release processes (4 main processes - MIV, SP, PSD, TD), no complex exospheric dynamics. | Complete study with simplified environment models, multiple processes, multiple networks, and multiple tasks introduction. |
 | v2.0 | 2024 | 10.5281/zenodo.15396772 | Single DNN type: An optimized MLP with 4 hidden layers. | Elemental composition prediction (11 elements) from exospheric elemental measurements; maps reconstruction and analysis; metrics evaluations. | Simulated dataset - realistic assumptions for the release processes (4 main processes - MIV, SP, PSD, TD), exospheric dynamics included; chemistry, magnetic field influences, and testing on actual Mercury surface and exosphere are not included. | Detailed draft. Complete study with realistic environment models, multiple processes, single optimized DNN, focused on a single prediction task (elemental ratios at surface). |
 | v2.1 | 2024 | 10.5281/zenodo.15397011 | Same as v2.0 | Same as v2.0 | Same as v2.0 | An even more detailed draft than v2.0 |
+| v2.2 | 2024 | 10.5281/zenodo.15397098 | Same as v2.0 | Same as v2.0 | Same as v2.0 | A more tightened draft than v2.0 and v2.1 |
 
 **Quick links**
 
-* **Latest PDF** → `docs/paper_v2.1__Kazakov_et_al_2024__even_more_detailed_draft.pdf`   
+* **Latest PDF** → `docs/paper_v2.2__Kazakov_et_al_2024__tightened_draft.pdf`   
 * **Zenodo record (all versions)** → https://doi.org/10.5281/zenodo.15394849
 
 ### How to cite

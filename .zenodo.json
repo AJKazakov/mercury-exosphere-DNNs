@@ -3,8 +3,8 @@
   "publication_type": "article",
   
   "title": "Deep neural networks for surface composition reconstruction from in-situ exospheric measurements at Mercury",
-  "version": "v2.1",
-  "description": "Complete study with realistic environment models, multiple processes, single optimized DNN, focused on a single prediction task (elemental ratios at surface). An even more detailed draft paper of a second more-focused study of the chronological collection of manuscripts exploring the conceptual application of machine-learning algorithms for the reconstruction of Mercury’s surface composition from simulated exospheric measurements. Single DNN type: An optimized MLP with 4 hidden layers. Elemental composition prediction (11 elements) from exospheric elemental measurements; maps reconstruction and analysis; metrics evaluations. Simulated dataset - realistic assumptions for the release processes (4 main processes - MIV, SP, PSD, TD), exospheric dynamics included; chemistry, magnetic field influences, and testing on actual Mercury surface and exosphere are not included.",
+  "version": "v2.2",
+  "description": "Complete study with realistic environment models, multiple processes, single optimized DNN, focused on a single prediction task (elemental ratios at surface). A more tightened draft paper of a second more-focused study of the chronological collection of manuscripts exploring the conceptual application of machine-learning algorithms for the reconstruction of Mercury’s surface composition from simulated exospheric measurements. Single DNN type: An optimized MLP with 4 hidden layers. Elemental composition prediction (11 elements) from exospheric elemental measurements; maps reconstruction and analysis; metrics evaluations. Simulated dataset - realistic assumptions for the release processes (4 main processes - MIV, SP, PSD, TD), exospheric dynamics included; chemistry, magnetic field influences, and testing on actual Mercury surface and exosphere are not included.",
   
   "creators": [
     {
