@@ -1,0 +1,78 @@
+{
+  "upload_type": "publication",
+  "publication_type": "article",
+  
+  "title": "Deep neural networks for analysis of Mercury’s planetary exosphere",
+  "version": "v0.0",
+  "description": "JPCS poster (supplement). Basic version of the chronological collection of manuscripts exploring the conceptual application of machine-learning algorithms for the reconstruction of Mercury’s surface composition from simulated exospheric measurements. Testing three DNN types: MLP in one position, MLP in a 3x3 grid, and CNN in a 5x5 grid. Mineralogy prediction (7 minerals) from exospheric elemental measurements. Simulated dataset - very simplistic split and release processes (only MIV).",
+  
+  "creators": [
+    {
+      "name": "Kazakov, Adrian",
+      "orcid": "0000-0001-6403-0266",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "Lazzarotto, Francesco",
+      "orcid": "0000-0003-4871-4072",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Osservatorio Astronomico di Padova (OAP)"
+    },
+	{
+      "name": "Orsini, Stefano",
+      "orcid": "0000-0002-5588-1920",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "Milillo, Anna",
+      "orcid": "0000-0002-0266-2556",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "Mangano, Valeria",
+      "orcid": "0000-0002-9903-4053",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "De Angelis, Elisabetta",
+      "orcid": "0000-0003-0537-6376",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "Ivanovski, Stavro",
+      "orcid": "0000-0002-8068-7695",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Osservatorio Astronomico di Trieste (OAT)"
+    },
+	{
+      "name": "Massetti, Stefano",
+      "orcid": "0000-0002-7767-1334",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "Mura, Alessandro",
+      "orcid": "0000-0002-4552-4292",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "Rispoli, Rosanna",
+      "orcid": "0000-0001-8575-7712",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "Vertolli, Nello",
+      "orcid": "0000-0001-9201-3025",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    },
+	{
+      "name": "Aronica, Alessandro",
+      "orcid": "0000-0003-3205-9472",
+      "affiliation": "Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)"
+    }
+  ],
+  
+  "license": "cc-by-4.0",
+  "keywords": ["Mercury", "exosphere", "deep learning", "planetary science"],
+  "communities": [
+    { "identifier": "planetary-science" },
+    { "identifier": "ai" }
+  ]
+}
