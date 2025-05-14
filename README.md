@@ -11,10 +11,11 @@ series.
 | v2.0 | 2024 | 10.5281/zenodo.15396772 | Single DNN type: An optimized MLP with 4 hidden layers. | Elemental composition prediction (11 elements) from exospheric elemental measurements; maps reconstruction and analysis; metrics evaluations. | Simulated dataset - realistic assumptions for the release processes (4 main processes - MIV, SP, PSD, TD), exospheric dynamics included; chemistry, magnetic field influences, and testing on actual Mercury surface and exosphere are not included. | Detailed draft. Complete study with realistic environment models, multiple processes, single optimized DNN, focused on a single prediction task (elemental ratios at surface). |
 | v2.1 | 2024 | 10.5281/zenodo.15397011 | Same as v2.0 | Same as v2.0 | Same as v2.0 | An even more detailed draft than v2.0 |
 | v2.2 | 2024 | 10.5281/zenodo.15397098 | Same as v2.0 | Same as v2.0 | Same as v2.0 | A more tightened draft than v2.0 and v2.1 |
+| v2.3 | 2024 | 10.5281/zenodo.15403718 | Same as v2.0 | Same as v2.0 | Same as v2.0 | Published as a pre-print to ESSOAr. |
 
 **Quick links**
 
-* **Latest PDF** → `docs/paper_v2.2__Kazakov_et_al_2024__tightened_draft.pdf`   
+* **Latest PDF** → `docs/paper_v2.3__Kazakov_et_al_2024__ESSOAr_preprint.pdf`   
 * **Zenodo record (all versions)** → https://doi.org/10.5281/zenodo.15394849
 
 ### How to cite
