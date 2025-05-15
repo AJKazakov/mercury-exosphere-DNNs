@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "If you use this work, please cite the appropriate version below."
 title: "Conceptual framework for the application of deep neural networks to surface composition reconstruction from Mercury’s exospheric data"
 abstract: "A complete study with realistic environment models, multiple processes, single optimized DNN, focused on a single prediction task (elemental ratios at surface). This finalized paper is published as the Conceptual Framework of a second, more-focused study in the chronological collection of manuscripts exploring the conceptual application of machine-learning algorithms for the reconstruction of Mercury’s surface composition from simulated exospheric measurements. Published also in arXiv. Single DNN type: An optimized MLP with 4 hidden layers. Elemental composition prediction (11 elements) from exospheric elemental measurements; maps reconstruction and analysis; metrics evaluations. Simulated dataset - realistic assumptions for the release processes (4 main processes - MIV, SP, PSD, TD), exospheric dynamics included; chemistry, magnetic field influences, and testing on actual Mercury surface and exosphere are not included."
-version: 2.4
-date-released: 2025-05-14
-doi: 10.5281/zenodo.15411813
+version: 2.5
+date-released: 2025-05-15
+doi: 10.5281/zenodo.15425584
 repository-code: https://github.com/AJKazakov/mercury-exosphere-DNNs
 authors:
   - family-names: Kazakov
@@ -79,10 +79,6 @@ authors:
 	given-names: Christina
     orcid: https://orcid.org/0000-0003-1483-5052
 	affiliation: Agenzia Spaziale Italiana (ASI)
-  - family-names: Richards
-	given-names: Grace
-    orcid: https://orcid.org/0000-0003-3651-7119
-	affiliation: Istituto Nazionale di Astrofisica (INAF) - Istituto di Astrofisica e Planetologia Spaziali (IAPS)
   - family-names: Rispoli
 	given-names: Rosanna
     orcid: https://orcid.org/0000-0001-8575-7712

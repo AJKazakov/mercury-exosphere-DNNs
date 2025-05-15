@@ -12,11 +12,12 @@ series.
 | v2.1 | 2024 | 10.5281/zenodo.15397011 | Same as v2.0 | Same as v2.0 | Same as v2.0 | An even more detailed draft than v2.0 |
 | v2.2 | 2024 | 10.5281/zenodo.15397098 | Same as v2.0 | Same as v2.0 | Same as v2.0 | A more tightened draft than v2.0 and v2.1 |
 | v2.3 | 2024 | 10.5281/zenodo.15403718 | Same as v2.0 | Same as v2.0 | Same as v2.0 | Published as a pre-print to ESSOAr. |
-| v2.4 | 2025 | 10.5281/zenodo.15411813 | Same as v2.0 | Same as v2.0 | Same as v2.0 | Finalized as the Conceptual Framework with much broadened scope for future continuation studies. Published also in arXiv. |
+| v2.4 | 2025 | 10.5281/zenodo.15411813 | Same as v2.0 | Same as v2.0 | Same as v2.0 | Witdrawn due to authors list correction. Superseded by v2.5. |
+| v2.5 | 2025 | 10.5281/zenodo.15425584 | Same as v2.0 | Same as v2.0 | Same as v2.0 | Finalized as the Conceptual Framework with much broadened scope for future continuation studies. Published also in arXiv. |
 
 **Quick links**
 
-* **Latest PDF** → `docs/paper_v2.4__Kazakov_et_al_2025__arXiv.pdf`   
+* **Latest PDF** → `docs/paper_v2.5__Kazakov_et_al_2025__arXiv.pdf`   
 * **Zenodo record (all versions)** → https://doi.org/10.5281/zenodo.15394849
 
 ### How to cite
